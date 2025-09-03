@@ -3,23 +3,20 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="conntainer">
+      <h1>Thông tin sinh viên</h1>
+      <div className='alert alert-danger' role='alert'>
+        Họ và tên: Nguyễn Văn Huỳnh
+      </div>
+      <div className='alert alert-success' role='alert'>
+        Lớp: reactjs-k22cntt
+      </div>
+      <div className='alert alert-primary' role='alert'>
+        Mã sinh viên: 2210900031
+      </div>
     </div>
   );
-}
+  }
+
 
 export default App;
